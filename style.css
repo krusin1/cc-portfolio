@@ -86,6 +86,7 @@ nav li a:hover{
     height: 80%;
     display: flex;
     padding: .4em;
+    color:white;
 }
 
 .card p {
