@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Montserrat";
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    list-style-type: none;
+
+  
+}
+
+.otherpages {
+    font-size:12pt;
+
+    padding: 50px;
+}
+
+header {
+    padding: 10px;
+    font-family: "Montserrat";
+    color: yellowgreen; 
+}
+
+nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;  
+    margin-left: auto; 
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    font-size: 11pt;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    text-align: right;
+    font-weight: 300;
+    display: block; 
+}
+
+nav li a:hover{
+    color:yellowgreen;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.headhalf {
+    font-family: "Montserrat";
+    font-weight: 300;
+    
+    font-size: 18pt;
+    color: yellowgreen;
+}
+
+.head1 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19pt;
+}
+
+
+.card {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding: .4em;
+}
+
+.card p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: black;
+    border: 1px solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    width: 100%;
+}
+
+.card p a {
+    text-decoration: none;
+    color: black;
+}
+
+.card p a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.card p:hover {
+    flex: 4;
+    background-color: yellowgreen;
+}
+
+.card p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .1em;
+}
+
+.card p:hover span {
+    transform: rotate(0);
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        top: 50%;
+        height: auto; 
+        width: 90%; 
+        padding: .2em; 
+    }
+
+    .card p {
+        min-height: 150px; 
+        width: 100%;
+        padding: .2em; 
+    }
+
+    .card p span {
+        min-width: 8em; 
+        font-size: 12px; 
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .card {
+        width: 80%; 
+    }
+
+    .card p {
+        min-height: 200px; 
+    }
+
+    .card p span {
+        min-width: 12em; 
+        font-size: 14px; 
+    }
+}
+
+
+.backbutton{
+    font-weight: 200;
+    font-size: 12pt;
+    text-decoration: none;
+    color:white;
+}
+
+.backbutton:hover{
+    color:yellowgreen;
+}
+
+.projecttitle{
+    font-size:30pt;
+    font-weight: 600;
+    padding-left:50px;
+    padding-top: 20px;
+    color:yellowgreen;
+}
+
+.box{
+    display:flex;
+    padding:50px;
+    gap:50px;
+}
+
+.thebody{
+    font-size: 11pt;
+}
+
+.thebody p {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
