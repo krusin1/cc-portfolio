@@ -197,6 +197,7 @@ nav li a:hover{
     display:flex;
     padding:50px;
     gap:50px;
+    flex:1;
 }
 
 .thebody{
@@ -208,3 +209,12 @@ nav li a:hover{
     font-weight: 600;
 }
 
+
+
+/* canvas {
+    position: relative;
+    width: 100%;
+    height: 400px;  
+    display: flex;
+    margin: auto;  
+} */
